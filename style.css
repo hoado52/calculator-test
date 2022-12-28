@@ -1,0 +1,68 @@
+.vsc-initialized{
+    background-color: rgb(45, 45, 38);
+}
+
+.container {
+    width: 400px;
+    margin: 1vh auto 0 auto;
+    background-color: transparent
+
+}
+
+#display {
+    max-width: 400px;
+    color: rgb(194, 194, 194);;
+    margin: 10vh auto 0 auto;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    padding: 16px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(88, 74, 74)
+
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 0px solid #999;
+    border-left: 0px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.button {
+    border: 3px solid transparent;
+    color: rgb(194, 194, 194);
+    line-height: 80px;
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(54, 44, 151, 0.72);
+}
+
+#equal {
+    background-color: rgb(169, 109, 48);
+
+    color: white;
+}
+
+.button:hover {
+    background-color: rgba(39, 32, 108, 0.72);
+    color: rgb(107, 174, 219);
+    transition: 0.1s ease-in-out;
+}
+
+.number{
+    background-color: rgb(83, 25, 130);
+}
+
+.cancel{
+    background-color: rgb(151, 47, 47);
+}
+
+.back{
+    background-color: rgb(112, 91, 19);
+}
